@@ -1,6 +1,15 @@
 export const certificates = [
 
   // 📘 BOOKS
+   {
+    title: "OBJECT ORIENTED SOFTWARE ENGINEERING",
+    category: "Book",
+    year: 2026,
+    isbn: "978-93-6940-038-6",
+    publisher: "BLUEPEN",
+    link: "https://doi.org/10.5281/zenodo.17995558",
+    viewLink: "https://drive.google.com/file/d/198xm1JSFxg1oVSRM2ZJR-v4G1339tFg9/view?usp=drive_link"
+  },
     {
     title: "Essentials of Computing",
     category: "Book",
@@ -286,6 +295,17 @@ export const certificates = [
   },
 
   // 📜 PATENTS
+
+       {
+    title: "AI-IoT Enabled Multi-Sensor Milk Quality Assessment and Quality Controlled Automated Milk Dispensing System with Real time Analytics",
+    category: "Patent",
+    year: 2019,
+    patentNumber: "202641109609",
+    link: "https://drive.google.com/file/d/1hsYHJDODtszYCK3MIsaASBNlADs7HTJA/view?usp=drive_link"
+     },
+
+
+
       {
     title: "Automated Milk Vending Machine - User and Farmer Friend",
     category: "Patent",

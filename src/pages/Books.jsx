@@ -11,6 +11,7 @@ export default function Books() {
 
       <div style={{ padding: "20px", width: "100%" }}>
         <h2>Books</h2>
+        
 
         <div style={{ display: "flex", flexWrap: "wrap", gap: "20px" }}>
           {books.map((book, index) => (
@@ -24,7 +25,7 @@ export default function Books() {
               <p>Year: {book.year}</p>
               
 
-              <a href={book.link} target="_blank">
+              <a href={book.viewLink} target="_blank">
                 View Book
               </a>
             </div>

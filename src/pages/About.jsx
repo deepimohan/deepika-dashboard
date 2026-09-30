@@ -38,7 +38,14 @@ export default function About({ mode, setMode }) {
       icon: <BadgeIcon />,
       link: "https://orcid.org/0009-0009-2778-2165",
       color: "#A6CE39"
+    },
+    {
+      name: "SCOPUS",
+      icon: <BadgeIcon />,
+      link: " https://www.scopus.com/authid/detail.uri?authorId=57436684500",
+      color: "#A6CE39"
     }
+   
   ];
 
   const education = [
